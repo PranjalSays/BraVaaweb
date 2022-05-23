@@ -1,0 +1,422 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all{
+position: relative;
+background: #FEFCEC;
+}
+
+/* Navbar */
+
+.navbar{
+position: absolute;
+width: 1000px;
+height: 47px;
+left: 80px;
+top: 40px;
+z-index: 1;
+display: flex;
+justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #0C2A36;
+}
+.links{
+ display: flex;
+ align-items: center;
+ list-style: none;
+}
+.Bra{
+position: absolute;
+width: 50px;
+height: 37px;
+left: 0px;
+top: 1px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: bolder;
+font-size: 26px;
+line-height: 30px;
+
+color: #0C2A36;
+}
+.home{
+    position: absolute;
+width: 63px;
+height: 26px;
+left: 441px;
+top: 1px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+
+color: #0C2A36;
+}
+.about{
+    position: absolute;
+width: 63px;
+height: 25px;
+left: 541px;
+top: 1.5px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+
+color: #0C2A36;
+}
+.course{
+    position: absolute;
+    width: 71px;
+    height: 26px;
+    left: 641px;
+    top: 1px;
+    
+    font-family: 'Andada Pro', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    
+    color: #0C2A36;
+}
+.infra{
+    position: absolute;
+    width: 144px;
+    height: 26px;
+    left: 741px;
+    top: 1px;
+    
+    font-family: 'Andada Pro', serif;    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    
+    color: #0C2A36;
+}
+.btn1{
+    position: absolute;
+width: 58px;
+height: 26px;
+left: 950px;
+top: 5px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 26px;
+border: none ;
+background: #FEFCEC;
+color: #0C2A36;
+
+}
+.btn2{
+    position: absolute;
+width: 128.34px;
+height: 39.77px;
+left: 1042px;
+top: 1px;
+
+border: 2px solid #F8AF29;
+border-radius: 25px;
+background: #FEFCEC;
+}
+
+
+
+/* Box1 */
+
+
+.box1{
+    position: absolute;
+width: 1263px;
+left: 0px;
+top: 0px;   
+height: 0px;
+}
+
+.h1{
+    position: absolute;
+width: 782px;
+height: 323px;
+left: 80px;
+top: 202px;
+
+font-family: 'Zeit';
+font-style: normal;
+font-weight: bolder;
+font-size: 84px;
+/* line-height: 116px; */
+
+color: #0C2A36;
+}
+.h4{
+    position: absolute;
+width: 913px;
+height: 100px;
+left: 80px;
+top: 400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+/* line-height: 39px; */
+
+color: #6D7F84;
+
+}
+.btn3{
+    position: absolute;
+width: 150px;
+height: 65.52px;
+left: 80px;
+top: 500px;
+
+color: #fff
+;
+background: #F8AF29;
+border-radius: 200px;
+border: solid #F8AF29;
+}
+.btn4{
+    position: absolute;
+width: 150px;
+height: 65.52px;
+left: 257px;
+top: 500px;color:#F8AF29 ;
+background: #FEFCEC;
+border: 3px solid #F8AF29;
+border-radius: 200px;
+
+}
+.img{
+    position: absolute;
+width: 250px;
+height: 400px;
+left: 50px;
+top: 50px;
+background: #FDC04E;
+border-radius: 100px 0px 0px 0px;
+/* border: 100px solid #FDC04E ; */
+}
+.ss2{
+    position: absolute;
+width: 350px;
+height: 550px;
+left: 920px;
+top: 200px;
+
+background: #FDC04E;
+border-radius: 100px 0px 0px 0px;
+}
+
+
+/* Box2*/
+
+.box2{
+    position: absolute;
+width: 1263px;
+height: 450px;
+left: 0px;
+top: 885px;
+
+background: #FFFFFF;
+}
+.h2{
+    position: absolute;
+width: 864px;
+height: 53px;
+left: 270px;
+top: 140px;
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: bolder;
+font-size: 40px;
+line-height: 53px;
+color: #0C2A36;
+}
+.google{
+    position: absolute;
+    width: 139px;
+    height: 51px;
+    left: 128px;
+    top: 300px;
+}
+.netflix{
+    position: absolute;
+    width: 151px;
+    height: 45px;
+    left: 380px;
+    top: 300px;
+}
+.airbnb{
+    position: absolute;
+    width: 188px;
+    height: 53px;
+    left: 898px;
+    top: 290px;
+    
+}
+.amazon{
+    position: absolute;
+    top: 300px;
+    left:650px;      
+}
+.ebay{
+    position: absolute;
+    width: 96.63px;
+    height: 38.22px;
+    left: 1140px;
+    top: 300px;
+}
+
+
+
+/* Box3 */
+
+.box3{
+    position: absolute;
+width: 1253px;
+height: 50px;
+left: 0px;
+top: 1521px;
+
+background: #FEFCEC;
+}
+.heading{
+    position: absolute;
+width: 441px;
+height: 168px;
+left: 246px;
+top: 0px;
+
+font-family: 'Zeit';
+font-style: normal;
+font-weight: bolder;
+font-size: 60px;
+line-height: 74px;
+
+color: #0C2A36;
+}
+.sub-heading{
+    position: absolute;
+width: 375.34px;
+height: 40px;
+left: 700px;
+top: 40px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: bolder;
+font-size: 40px;
+line-height: 53px;
+
+color: #0C2A36;
+}
+.para{
+    position: absolute;
+    width: 579px;
+    height: 118px;
+    left: 700px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    
+    color: #6D7F84;
+}
+.pic1{
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 655px;
+top: 48px;
+background-color: #FEFCEC;
+}
+.sub-heading2{
+    position: absolute;
+width: 423.89px;
+height: 44px;
+left: 700px;
+top: 280px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: bolder;
+font-size: 40px;
+line-height: 53px;
+
+color: #0C2A36;
+}
+
+.para2{
+    position: absolute;
+    width: 579px;
+    height: 126px;
+    left: 700px;
+    top: 340px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    
+    color: #6D7F84;
+}
+.ss3{
+    position: absolute;
+    width: 400x;
+    height: 250px;
+    left: 80px;
+    top: 400px;
+}
+
+.pic2{
+    position: absolute;
+width: 30.6px;
+height: 45.28px;
+left: 655px;
+top: 280px;
+background: #FEFCEC;
+}
+.learn{
+    position: absolute;
+width: 195px;
+height: 42px;
+left: 700px;
+top: 200px;
+
+font-family: 'Andada Pro', serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+text-decoration-line: underline;
+color: #FDC04E;
+
+}
+
+
+.box7{
+    position: absolute;
+width: 245px;
+height: 655px;
+left: 0px;
+top: -185px;
+background: #FDC04E;
+}
